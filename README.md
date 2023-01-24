@@ -7,3 +7,6 @@ Base on the console application made by rob5300: https://github.com/rob5300/ssbu
 - Can convert multiple files
 - Automatically renames "-ssbump" suffix to "-normal"
 - Convert from and to .vtf using VTFLib
+
+## Requirements:
+This project requires the latest version of .net6
