@@ -63,8 +63,8 @@ namespace SSBumpToNormal {
 						MessageBoxButtons.YesNo, 
 						MessageBoxIcon.Question
 					) == DialogResult.Yes) {
-					foreach (var item in LstInputPaths.SelectedItems) {
-						LstInputPaths.Items.Remove(item);
+					while (LstInputPaths.SelectedItems.Count > 0) {
+						LstInputPaths.Items.Remove(LstInputPaths.SelectedItem);
 					}
 				}
 			}
